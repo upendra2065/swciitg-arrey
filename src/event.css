@@ -1,0 +1,105 @@
+.containerx {
+    width:17rem; 
+    height:12.7rem;
+}
+@media screen and (max-width:1200px) {
+    .containerx{
+        width:20rem;
+    }
+}
+@media screen and (max-width:750px) and (min-width :700px) {
+    .containerx{
+        width:43.2rem;    
+    }
+}
+@media screen and (max-width:700px) and (min-width :650px) {
+    .containerx{
+        width:40rem;    
+    }
+}
+@media screen and (max-width:650px) and (min-width :600px) {
+    .containerx{
+        width:37rem;    
+    }
+} 
+@media screen and (max-width:600px) and (min-width :550px) {
+    .containerx{
+        width:34rem;    
+    }
+} 
+@media screen and (max-width:550px) and (min-width :500px) {
+    .containerx{
+        width:31rem;    
+    }
+}
+@media screen and (max-width:500px) and (min-width :450px) {
+    .containerx{
+        width:28rem;    
+    }
+} 
+@media screen and (max-width:450px) and (min-width :400px) {
+    .containerx{
+        width:25rem;    
+    }
+}
+@media screen and (max-width:400px) and (min-width :350px) {
+    .containerx{
+        width:22.2rem;    
+    }
+}
+@media screen and (max-width:350px) and (min-width :300px) {
+    .containerx{
+        width:19rem;    
+    }
+}
+@media screen and (max-width:300px){
+    .containerx{
+        width:16rem;    
+    }
+}     
+.slick-slide {
+    height:100%;
+    width:100%;
+}
+.slick-slide img {
+    height:-webkit-fill-available;
+    width:inherit;
+    background-position: center center;
+    background-size:contain;  
+}
+@media screen and (max-width:750px){
+    .slick-slide img {
+        height:15.5rem;
+    }
+    .containerx{
+        height:20rem;
+    }
+}
+@media screen and (max-width:500px){
+    .slick-slide img {
+        height:10.2rem;
+    }
+    .containerx{
+        height:15rem;
+    }
+}
+.slick-next{
+    right:0px;
+    visibility: hidden;
+}
+.slick-prev{
+    left:0px;
+    visibility: hidden;
+}
+
+.react-event-clubname{
+    margin-top: 0.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.react-event-venue , .react-event-datetime{
+    font-size: 14px;
+    opacity: 0.7;
+    margin-top: -1rem;
+    text-align: center;
+}

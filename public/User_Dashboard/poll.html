@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+        <link href="poll.css" rel="stylesheet"/>
+    </head>
+    <body id="body">
+        <div class="grid-container" id="grid-container-login">
+            <p id="glorify-login">Create Poll</p>
+            <form id="form">
+                <div class="form-group">
+                    <label id="username-password">Club Name</label>
+                    <input type="text" class="form-control" placeholder="Associate club name" onfocus="this.placeholder=''" onblur="this.placeholder='Associate club name'">
+                </div>
+                <div class="form-group">
+                    <label for="my-input">Text</label>
+                    <textarea id="my-input" class="form-control" rows="3" placeholder="Type some text about poll." onfocus="this.placeholder=''" onblur="this.placeholder='Type some text about poll.'"></textarea>
+                </div> 
+                <div class="form-group">
+                    <label id="username-password">Poll field</label>
+                    <input type="text" class="form-control" placeholder="Add poll field" onfocus="this.placeholder=''" onblur="this.placeholder='Add poll field'">
+                </div>
+                <div id="container"></div> 
+                <button type="button" class="btn btn-dark" id="button-add-another-field" style="margin-bottom:2rem;">Add another field</button>  
+                <div style="padding-bottom :1rem;">
+                    <button type="submit" class="btn" id="login-button">Submit</button>
+                </div> 
+                 
+            </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+        <script defer src="poll.js"></script>
+    </body>
+</html>
