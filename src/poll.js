@@ -5,7 +5,7 @@ function Poll(props){
 
     const x = props.pollsField.map((y) =>
         <div key={y.id}>
-             <div className="react-poll-field">
+            <div className="react-poll-field">
                  <input id={y.key} type="checkbox" value="test" />
                 <span for={y.key} className="react-poll-label">{y.field}</span>
             </div> 
